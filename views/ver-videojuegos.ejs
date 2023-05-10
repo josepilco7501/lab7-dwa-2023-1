@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Videojuegos</title>
+  <link rel="stylesheet" href="styles/videojuegos.css">
+  <style>
+    /* Aquí puedes agregar los estilos que diseñamos anteriormente */
+  </style>
+</head>
+<body>
+  <h1>Mis Videojuegos</h1>
+  <a href="/" class="boton">Nuevo videojuego</a>
+  <div class="container">
+    <% for (var i = 0; i < videojuegos.length; i++) { %>
+      <div class="card">
+        <h2><%= videojuegos[i].nombre %></h2>
+        <img src="/images/<%= videojuegos[i].imagen %>" alt="<%= videojuegos[i].nombre %>">
+        <p><%= videojuegos[i].descripcion %></p>
+      </div>
+    <% } %>
+  </div>
+</body>
+</html>
+
+  

@@ -1,0 +1,71 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para el título "Crear videojuego" */
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 50px;
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  /* Estilo para las etiquetas de los campos del formulario */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Estilo para los campos de texto del formulario */
+  input[type="text"], textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 1.2em;
+  }
+  
+  /* Estilo para el botón del formulario */
+  button[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón del formulario cuando está deshabilitado */
+  button[type="submit"]:disabled {
+    background-color: #aaa;
+    cursor: default;
+  }
+  
+  /* Estilo para la imagen del formulario */
+  input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los errores del formulario */
+  .error {
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  

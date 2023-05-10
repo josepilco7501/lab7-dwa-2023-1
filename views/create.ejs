@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Crear videojuego</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <h1>Crear videojuego</h1>
+  <form action="/guardar" method="post" enctype="multipart/form-data">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion" required></textarea><br>
+
+    <label for="imagen">Imagen:</label>
+    <input type="file" id="imagen" name="imagen" accept="image/*" required><br>
+
+    <button type="submit">Crear videojuego</button>
+  </form>
+</body>
+</html>
